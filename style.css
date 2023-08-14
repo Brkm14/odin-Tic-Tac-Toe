@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Tilt+Prism&display=swap');
+
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Tilt Prism', cursive;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    font-size: 55px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 15px 10px -15px #111;  
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-board{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    justify-content: center;
+    background-color: black;
+    margin-top: 15px;
+    width: 500px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.weapon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+button{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 55px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+
+.weapon button, #restartButton{
+    width: 200px;
+    font-size: 25px;
+    border-radius: 10rem;
+    color: white;
+    background-color: black;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.weapon button:hover{
+    background-color: #6ffb6c;
+    color: black;
+}
+
+.player-button.active {
+    background-color: #6ffb6c;
+    color: black;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#restartButton:hover{
+    background-color: red;
+    color: black;
+}
+
+/* Remove the square borders */
+#square1{
+    border-top: none;
+    border-left: none;
+}
+
+#square2{
+    border-top: none;
+}
+
+#square3{
+    border-top: none;
+    border-right: none;
+}
+
+#square4{
+    border-left: none;
+}
+
+#square6{
+    border-right: none;
+}
+
+#square7{
+    border-left: none;
+    border-bottom: none;
+}
+
+#square8{
+    border-bottom: none;
+}
+
+#square9{
+    border-bottom: none;
+    border-right: none;
+}
+
+
+  
