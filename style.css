@@ -55,7 +55,7 @@ button{
     background-color: black;
 }
 
-.weapon button, #restartButton{
+#restartButton{
     width: 200px;
     font-size: 25px;
     border-radius: 10rem;
@@ -125,4 +125,6 @@ button{
 }
 
 
-  
+  .weapon{
+    font-size: 35px;
+  }
